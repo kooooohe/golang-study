@@ -1,0 +1,33 @@
+# Golang勉強会
+
+## 作業系メモ
+
+brew install go
+
+go version
+
+go version go1.10 darwin/amd64
+
+go env
+
+GOPATH="/Users/xxxxxxx/go"を確認！
+
+go用に適当なディレクトリを作ろう！
+
+main.goを書いてみよう！
+
+
+## その他講義メモ
+
+### GOの特徴
+GOはOSに依存しない言語だよ！
+メモリの解放も自動でやってくれるよ！
+
+### GOの思想
+コンパイル言語のように早く！
+Pythonのように書きやすい！
+
+DockerもGoで書かれているよ！
+k8sもね！
+while文ないし書きやすい！無駄な機能がない！から読みやすい！
+変数名も省略していこう！関数をマイクロ化していこう！
