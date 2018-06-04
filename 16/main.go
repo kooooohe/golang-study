@@ -8,6 +8,8 @@ func main() {
 	//println(AorB()) //A
 	for {
 		//無限ループ
+		//処理
+		continue
 	}
 	for i := 0; i < 10; i++ {
 
