@@ -17,20 +17,7 @@ func main() {
 		}
 	}()
 
-	go func() {
-		for {
-			i := <-ch1
-			ch2 <- (i * 2)
-		}
-	}()
-
 	//ch2から受信した整数を1減算ch3へ送信
-	go func() {
-		for {
-			i := <-ch2
-			ch3 <- (i - 1)
-		}
-	}()
 	go func() {
 		for {
 			i := <-ch2
